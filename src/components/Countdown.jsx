@@ -10,7 +10,7 @@ export default function Countdown(props){
 
     setInterval(function(){ 
         //this code runs every second 
-        let birthday = new Date(`${props.birthdate}, 2022 0:0:0`).getTime();
+        let birthday = new Date(`${props.birthdate}, 2023 0:0:0`).getTime();
         let now = new Date().getTime();
         let distance = birthday - now;
 
